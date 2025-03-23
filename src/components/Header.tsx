@@ -29,7 +29,7 @@ const Header = () => {
           Terms
         </a>
         <a 
-          href="https://github.com/snappaste" 
+          href="https://github.com/Shadowgamer12k" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
@@ -38,7 +38,7 @@ const Header = () => {
           <Github size={20} />
         </a>
         <a 
-          href="https://buymeacoffee.com/snappaste" 
+          href="https://buymeacoffee.com/shadowjamak" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
