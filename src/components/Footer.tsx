@@ -29,7 +29,7 @@ const Footer = () => {
             Contact
           </a>
           <a 
-            href="https://github.com/snappaste" 
+            href="https://github.com/Shadowgamer12k" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-sm text-foreground/60 hover:text-foreground transition-colors"
@@ -38,7 +38,7 @@ const Footer = () => {
             <Github size={18} />
           </a>
           <a 
-            href="https://buymeacoffee.com/snappaste" 
+            href="https://buymeacoffee.com/shadowjamak" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-sm text-foreground/60 hover:text-foreground transition-colors"
