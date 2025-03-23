@@ -1,69 +1,66 @@
-# Welcome to your Lovable project
+# SnapPast
 
-## Project info
+SnapPast is a simple and efficient tool that allows you to **paste images** and **download them** easily. Whether you want to quickly save screenshots, share images, or keep visual notes, SnapPast provides a seamless experience.
 
-**URL**: https://lovable.dev/projects/f297fdde-88ca-4ac0-a5aa-6553032dcf1b
+## 🚀 Features
 
-## How can I edit this code?
+- 📌 **Paste Images:** Simply paste an image from your clipboard.
+- 📥 **Download Images:** Save your images with one click.
+- ⚡ **Fast & Easy:** No complicated setups, just paste and save!
+- 🌍 **Web-Based:** Works on all modern browsers.
 
-There are several ways of editing your application.
+## 🔧 Installation
 
-**Use Lovable**
+You can use SnapPast directly from your browser, but if you want to set it up locally, follow these steps:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f297fdde-88ca-4ac0-a5aa-6553032dcf1b) and start prompting.
+```bash
+# Clone the repository
+git clone https://github.com/Shadowgamer12k/snapPast.git
 
-Changes made via Lovable will be committed automatically to this repo.
+# Navigate to the project folder
+cd snapPast
 
-**Use your preferred IDE**
+# Install dependencies
+npm install
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# Start the application
+npm start
 ```
 
-**Edit a file directly in GitHub**
+## 📖 How to Use
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Open SnapPast in your browser.
+2. **Paste an image** (CTRL + V / CMD + V).
+3. Click the **Download** button to save your image.
+4. Enjoy a fast and hassle-free experience! 🚀
 
-**Use GitHub Codespaces**
+## 🛠 Technologies Used
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- HTML, CSS, JavaScript
+- Node.js (if applicable)
+- Any other relevant libraries (mention them here)
 
-## What technologies are used for this project?
+## 📢 SEO Optimization
 
-This project is built with .
+To make SnapPast discoverable on search engines, we have:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Added relevant **keywords** like *paste images online*, *download clipboard images*, *quick image saver*.
+- Optimized metadata in the HTML file (title, description, and OpenGraph tags).
+- Used a clean and descriptive README.md for better visibility on GitHub.
 
-## How can I deploy this project?
+## 📬 Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/f297fdde-88ca-4ac0-a5aa-6553032dcf1b) and click on Share -> Publish.
+We welcome contributions! If you have suggestions or want to improve SnapPast, feel free to fork the repository and submit a pull request.
 
-## I want to use a custom domain - is that possible?
+## 📜 License
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+This project is licensed under the **MIT License**.
+
+## 🌟 Support
+
+If you like SnapPast, consider giving us a ⭐ on GitHub!
+
+---
+
+💡 **SnapPast - The fastest way to paste and save images!**
+
