@@ -13,7 +13,7 @@ const AdPlacement: React.FC<AdPlacementProps> = ({ className }) => {
         <p className="text-muted-foreground">Ad Space</p>
       </div>
       <p className="text-xs text-foreground/50 mt-2">
-        Your ad could be here
+        <div data-banner-id="6064618"></div>
       </p>
     </div>
   );
