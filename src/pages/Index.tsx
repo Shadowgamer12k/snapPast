@@ -6,6 +6,7 @@ import ImageDropZone from '@/components/ImageDropZone';
 import ImagePreview from '@/components/ImagePreview';
 import AdPlacement from '@/components/AdPlacement';
 import AdBlockDetector from '@/components/AdBlockDetector';
+import StatisticsSection from '@/components/StatisticsSection';
 import { toast } from "sonner";
 
 const Index = () => {
@@ -54,6 +55,9 @@ const Index = () => {
             <AdBlockDetector />
           </div>
         </div>
+        
+        {/* Statistics Section */}
+        <StatisticsSection />
         
         <section id="about" className="mb-16">
           <div className="text-center mb-8">

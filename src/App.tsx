@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
+import MouseTrail from "./components/MouseTrail";
 
 const queryClient = new QueryClient();
 
@@ -16,6 +17,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <MouseTrail />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />

@@ -2,6 +2,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Upload, Image, RefreshCw, Download } from 'lucide-react';
 import { toast } from "sonner";
+import { recordImagePaste } from '@/utils/statistics';
 
 interface ImageDropZoneProps {
   onImagePasted: (image: string) => void;
@@ -55,6 +56,9 @@ const ImageDropZone: React.FC<ImageDropZoneProps> = ({ onImagePasted }) => {
     const reader = new FileReader();
     reader.onload = (e) => {
       if (e.target && typeof e.target.result === 'string') {
+        // Record the image paste in statistics
+        recordImagePaste();
+        
         onImagePasted(e.target.result);
         toast.success("Image loaded successfully!");
       }
