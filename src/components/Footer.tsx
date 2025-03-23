@@ -23,7 +23,9 @@ const Footer = () => {
             Terms of Service
           </a>
           <a 
-            href="#contact" 
+            href="https://discord.com/invite/VMrN8AnTEB" 
+            target="_blank" 
+            rel="noopener noreferrer" 
             className="text-sm text-foreground/60 hover:text-foreground transition-colors"
           >
             Contact
