@@ -10,10 +10,10 @@ const AdPlacement: React.FC<AdPlacementProps> = ({ className }) => {
     <div className={`ad-container ${className}`}>
       <p className="text-foreground/70 text-sm mb-1">Advertisement</p>
       <div className="bg-secondary/50 h-[250px] flex items-center justify-center rounded border border-border/50">
-        <p className="text-muted-foreground">Ad Space</p>
+        <div data-banner-id="6064618"></div>
       </div>
       <p className="text-xs text-foreground/50 mt-2">
-        <div data-banner-id="6064618"></div>
+       
       </p>
     </div>
   );
