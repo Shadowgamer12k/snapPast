@@ -1,3 +1,5 @@
+# SnapPast website link : https://snappast.netlify.app
+
 # SnapPast
 
 SnapPast is a simple and efficient tool that allows you to **paste images** and **download them** easily. Whether you want to quickly save screenshots, share images, or keep visual notes, SnapPast provides a seamless experience.
