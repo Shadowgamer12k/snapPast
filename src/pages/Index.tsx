@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import ImageDropZone from '@/components/ImageDropZone';
 import ImagePreview from '@/components/ImagePreview';
 import AdPlacement from '@/components/AdPlacement';
+import AdBlockDetector from '@/components/AdBlockDetector';
 import { toast } from "sonner";
 
 const Index = () => {
@@ -48,8 +49,9 @@ const Index = () => {
             )}
           </div>
           
-          <div className="flex items-start">
+          <div className="flex flex-col items-start">
             <AdPlacement className="w-full" />
+            <AdBlockDetector />
           </div>
         </div>
         

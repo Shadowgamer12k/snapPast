@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Github, Coffee } from 'lucide-react';
 
 const Header = () => {
   return (
@@ -16,16 +17,34 @@ const Header = () => {
           Home
         </a>
         <a 
-          href="#about" 
+          href="/privacy" 
           className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
         >
-          About
+          Privacy
         </a>
         <a 
-          href="#faq" 
+          href="/terms" 
           className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
         >
-          FAQ
+          Terms
+        </a>
+        <a 
+          href="https://github.com/snappaste" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
+          aria-label="GitHub"
+        >
+          <Github size={20} />
+        </a>
+        <a 
+          href="https://buymeacoffee.com/snappaste" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
+          aria-label="Buy Me a Coffee"
+        >
+          <Coffee size={20} />
         </a>
       </nav>
     </header>
